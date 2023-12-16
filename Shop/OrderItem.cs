@@ -4,8 +4,8 @@ namespace Shop
 	public class OrderItem
 	{
         private string name { get; set; }
-        private decimal price { get; set; }
-        private int quantity { get; set; }
+        public decimal price { get; set; }
+        public int quantity { get; set; }
 
 
         public OrderItem(string name, decimal price, int quantity)

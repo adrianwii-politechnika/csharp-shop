@@ -3,10 +3,7 @@ namespace Shop
 {
 	public class Receipt
 	{
-        List<OrderItem> items = new List<OrderItem>
-        {
-            new OrderItem("Bread", 5.0m, 3)
-        };
+        List<OrderItem> items = new List<OrderItem>();
 
         public Receipt()
 		{
@@ -18,6 +15,22 @@ namespace Shop
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine($"Suma: {GetSum()} PLN");
+        }
+
+        public void AddProduct(OrderItem item)
+        {
+            items.Add(item);
+        }
+
+        public decimal GetSum()
+        {
+            decimal sum = 0;
+            foreach(OrderItem item in items)
+            {
+                sum = sum + (item.price * item.quantity);
+            }
+            return sum;
         }
     }
 }
