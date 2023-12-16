@@ -3,17 +3,20 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
-# Default ignored files
+
 /shelf/
 /workspace.xml
-# Rider ignored files
+
 /contentModel.xml
 /modules.xml
 /projectSettingsUpdater.xml
 /.idea
-# Editor-based HTTP Client requests
+.idea
 /httpRequests/
-# Datasource local storage ignored files
+
 /dataSources/
 /dataSources.local.xml
 .vs/
+*.json
+*.cache
+*.props
