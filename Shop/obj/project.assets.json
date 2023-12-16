@@ -1,36 +1,38 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net8.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net8.0": []
   },
   "packageFolders": {
-    "/Users/adrianwidlak/.nuget/packages/": {}
+    "C:\\Users\\mariu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/adrianwidlak/Projects/Shop/Shop/Shop.csproj",
+      "projectUniqueName": "C:\\Kurs\\.net\\csharp-shop\\Shop\\Shop.csproj",
       "projectName": "Shop",
-      "projectPath": "/Users/adrianwidlak/Projects/Shop/Shop/Shop.csproj",
-      "packagesPath": "/Users/adrianwidlak/.nuget/packages/",
-      "outputPath": "/Users/adrianwidlak/Projects/Shop/Shop/obj/",
+      "projectPath": "C:\\Kurs\\.net\\csharp-shop\\Shop\\Shop.csproj",
+      "packagesPath": "C:\\Users\\mariu\\.nuget\\packages\\",
+      "outputPath": "C:\\Kurs\\.net\\csharp-shop\\Shop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/adrianwidlak/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mariu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -41,8 +43,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -59,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -3,7 +3,7 @@ namespace Shop
 {
 	public class OrderItem
 	{
-        private string name { get; set; }
+        public string name { get; set; }
         public decimal price { get; set; }
         public int quantity { get; set; }
 
@@ -15,7 +15,7 @@ namespace Shop
             this.quantity = quantity;
         }
 
-        public decimal GetValue()
+        public virtual decimal GetValue()
         {
             return quantity * price;
         }

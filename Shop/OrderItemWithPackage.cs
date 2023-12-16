@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Shop
 {
@@ -15,6 +16,17 @@ namespace Shop
         {
             this.packageName = packageName;
             this.unitPrice = unitPrice;
+        }
+
+        public override decimal GetValue()
+        {
+            //(quantity * product unit price + quantity *  package unit price)
+            return base.GetValue() + quantity * unitPrice;
+        }
+
+        public override string? ToString()
+        {
+            return $"{name}, price: {price} PLN, package: {packageName}, unit price; {unitPrice},{quantity} szt, value: {GetValue()} PLN";
         }
     }
 

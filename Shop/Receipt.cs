@@ -28,7 +28,7 @@ namespace Shop
             decimal sum = 0;
             foreach(OrderItem item in items)
             {
-                sum = sum + (item.price * item.quantity);
+                sum = sum + item.GetValue();
             }
             return sum;
         }
