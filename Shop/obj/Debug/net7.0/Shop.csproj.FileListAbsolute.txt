@@ -1,0 +1,15 @@
+/Users/adrianwidlak/Projects/Shop/Shop/bin/Debug/net7.0/Shop
+/Users/adrianwidlak/Projects/Shop/Shop/bin/Debug/net7.0/Shop.deps.json
+/Users/adrianwidlak/Projects/Shop/Shop/bin/Debug/net7.0/Shop.runtimeconfig.json
+/Users/adrianwidlak/Projects/Shop/Shop/bin/Debug/net7.0/Shop.dll
+/Users/adrianwidlak/Projects/Shop/Shop/bin/Debug/net7.0/Shop.pdb
+/Users/adrianwidlak/Projects/Shop/Shop/obj/Debug/net7.0/Shop.csproj.AssemblyReference.cache
+/Users/adrianwidlak/Projects/Shop/Shop/obj/Debug/net7.0/Shop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adrianwidlak/Projects/Shop/Shop/obj/Debug/net7.0/Shop.AssemblyInfoInputs.cache
+/Users/adrianwidlak/Projects/Shop/Shop/obj/Debug/net7.0/Shop.AssemblyInfo.cs
+/Users/adrianwidlak/Projects/Shop/Shop/obj/Debug/net7.0/Shop.csproj.CoreCompileInputs.cache
+/Users/adrianwidlak/Projects/Shop/Shop/obj/Debug/net7.0/Shop.dll
+/Users/adrianwidlak/Projects/Shop/Shop/obj/Debug/net7.0/refint/Shop.dll
+/Users/adrianwidlak/Projects/Shop/Shop/obj/Debug/net7.0/Shop.pdb
+/Users/adrianwidlak/Projects/Shop/Shop/obj/Debug/net7.0/Shop.genruntimeconfig.cache
+/Users/adrianwidlak/Projects/Shop/Shop/obj/Debug/net7.0/ref/Shop.dll
