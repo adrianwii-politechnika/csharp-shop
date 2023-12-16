@@ -10,8 +10,8 @@ namespace Shop
     internal class OrderItemWithPackage : OrderItem
     {
         private String packageName;
-
         private decimal unitPrice;
+
         public OrderItemWithPackage(string name, decimal price, int quantity, string packageName, decimal unitPrice) : base(name, price, quantity)
         {
             this.packageName = packageName;
@@ -26,7 +26,7 @@ namespace Shop
 
         public override string? ToString()
         {
-            return $"{name}, price: {price} PLN, package: {packageName}, unit price; {unitPrice},{quantity} szt, value: {GetValue()} PLN";
+            return $"{name}, price: {price} PLN, package: {packageName}, unit price; {unitPrice}, {quantity} szt, value: {GetValue()} PLN";
         }
     }
 

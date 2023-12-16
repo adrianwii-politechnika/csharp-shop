@@ -3,10 +3,17 @@ namespace Shop
 {
 	public class Receipt
 	{
-        List<OrderItem> items = new List<OrderItem>();
+        private List<OrderItem> items = new List<OrderItem>();
 
         public Receipt()
 		{
+        }
+
+        public List<OrderItem> Items
+        {
+            get {
+                return items;
+            }
         }
 
         public void Print()
